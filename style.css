@@ -2,28 +2,27 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  max-width: 1400px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
-header {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 3rem;
-}
+
 ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
 }
 #forside {
-  width: 100%;
   background-color: #1a1a28;
-}
-h1 {
-  max-width: 20rem;
-  margin-left: 2rem;
-  margin-top: auto;
 }
 .forsideMain {
   display: grid;
@@ -32,4 +31,22 @@ h1 {
 }
 img {
   width: 100%;
+}
+.tekstforside {
+  color: white;
+  text-align: left;
+  margin-left: 5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 30px;
+}
+@media (max-width: 908px) {
+  .tekstforside {
+    color: white;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+  }
 }
