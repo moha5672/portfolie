@@ -17,15 +17,19 @@ ul {
   gap: 3rem;
 }
 #forside {
-  height: 100vh;
   width: 100%;
-
-  background-image: url(img/billede3.jpg);
-  background-position: center;
-  background-size: cover;
+  background-color: #1a1a28;
 }
 h1 {
   max-width: 20rem;
   margin-left: 2rem;
   margin-top: auto;
+}
+.forsideMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+img {
+  width: 100%;
 }
