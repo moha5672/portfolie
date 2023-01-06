@@ -1,10 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
-  max-width: 1300px;
+  max-width: 1370px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5;
 }
 
 ul {
@@ -75,17 +81,23 @@ nav ul li a:hover::after {
   background-color: #1a1a28;
 }
 .aaa {
-  background-color: #024983;
+  background-color: #1a1a28;
   background-size: cover;
   backdrop-filter: blur(10px);
-  margin-top: 0%;
-  margin-bottom: 1rem;
+
+  margin-bottom: 2rem;
   text-align: center;
+  box-shadow: 5px 5px 100px #67131f;
+
+  color: white;
 }
 .boks {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
-  border-inline-color: #024983;
-  box-shadow: 5px 5px 30px #024983;
+
+  box-shadow: 5px 5px 30px black;
+}
+#OmMig {
+  background-color: #1a1a28;
 }
