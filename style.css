@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  max-width: 1400px;
+  max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.5;
@@ -23,6 +23,7 @@ ul {
 
 #forside {
   background-color: #1a1a28;
+  width: 100%;
 }
 .forsideMain {
   display: grid;
@@ -73,22 +74,31 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
+/*Portfolio*/
 .temaer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
+@media (max-width: 908px) {
+  .temaer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
 #Portfolie {
   background-color: #1a1a28;
 }
 .aaa {
   background-color: #1a1a28;
   background-size: cover;
-  backdrop-filter: blur(10px);
 
   margin-bottom: 2rem;
   text-align: center;
   box-shadow: 5px 5px 100px #67131f;
+  font-size: 5rem;
 
   color: white;
 }
@@ -96,9 +106,11 @@ nav ul li a:hover::after {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px 10px 10px 10px;
 
   box-shadow: 5px 5px 30px black;
 }
+
 #OmMig {
   background-color: #1a1a28;
 }
