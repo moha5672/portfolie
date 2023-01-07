@@ -102,39 +102,91 @@ nav ul li a:hover::after {
 
   color: white;
 }
-.boks {
+.kort {
   max-width: 25rem;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px 10px 10px 10px;
-
-  position: relative;
 }
-.boks :first-child {
+.kort :first-child {
   border-radius: 10px 10px;
-
+  position: relative;
   width: 100%;
 }
-.boks :last-child {
+.kort :last-child {
   background-color: #e91e31;
   border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
 }
-.boks::after {
-  content: "tema tema tema";
+.boks-2::after {
+  content: "tema-2";
   width: 0%;
-  height: 100%;
+  height: 99%;
   background: #e91e31;
   left: 0;
-  bottom: 0;
+  bottom: 5px;
   text-decoration: none;
   position: absolute;
-  transition: 0.6s;
+  transition: 0.8s;
   overflow: hidden;
   border-radius: 10px 10px;
   animation-direction: alternate-reverse;
 }
-.boks:hover::after {
-  width: 80%;
+.boks-2:hover::after {
+  width: 100%;
+}
+.boks-3::after {
+  content: "tema-3";
+  width: 0%;
+  height: 99%;
+  background: #e91e31;
+  left: 0;
+  bottom: 5px;
+  text-decoration: none;
+  position: absolute;
+  transition: 0.8s;
+  overflow: hidden;
+  border-radius: 10px 10px;
+  animation-direction: alternate-reverse;
+}
+.boks-3:hover::after {
+  width: 100%;
+}
+.boks-4::after {
+  content: "tema-4";
+  width: 0%;
+  height: 99%;
+  background: #e91e31;
+  left: 0;
+  bottom: 5px;
+  text-decoration: none;
+  position: absolute;
+  transition: 0.8s;
+  overflow: hidden;
+  border-radius: 10px 10px;
+  animation-direction: alternate-reverse;
+}
+.boks-4:hover::after {
+  width: 100%;
+}
+.boks-5::after {
+  content: "tema-5";
+  width: 0%;
+  height: 99%;
+  background: #e91e31;
+  left: 0;
+  bottom: 5px;
+  text-decoration: none;
+  position: absolute;
+  transition: 0.8s;
+  overflow: hidden;
+  border-radius: 10px 10px;
+  animation-direction: alternate-reverse;
+}
+.boks-5:hover::after {
+  width: 100%;
 }
 
 #OmMig {
