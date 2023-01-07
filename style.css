@@ -122,6 +122,9 @@ nav ul li a:hover::after {
 }
 .boks-2::after {
   content: "tema-2";
+  font-size: 2rem;
+  text-align: center;
+  line-height: 250px;
   width: 0%;
   height: 99%;
   background: #e91e31;
@@ -139,6 +142,9 @@ nav ul li a:hover::after {
 }
 .boks-3::after {
   content: "tema-3";
+  font-size: 2rem;
+  text-align: center;
+  line-height: 250px;
   width: 0%;
   height: 99%;
   background: #e91e31;
@@ -156,6 +162,9 @@ nav ul li a:hover::after {
 }
 .boks-4::after {
   content: "tema-4";
+  font-size: 2rem;
+  text-align: center;
+  line-height: 250px;
   width: 0%;
   height: 99%;
   background: #e91e31;
@@ -172,7 +181,12 @@ nav ul li a:hover::after {
   width: 100%;
 }
 .boks-5::after {
-  content: "tema-5";
+  content: "Tema-5";
+
+  font-size: 2rem;
+  text-align: center;
+  line-height: 250px;
+
   width: 0%;
   height: 99%;
   background: #e91e31;
