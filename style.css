@@ -90,6 +90,7 @@ nav ul li a:hover::after {
 
 #Portfolie {
   background-color: #1a1a28;
+  padding-bottom: 4rem;
 }
 .aaa {
   background-color: #1a1a28;
@@ -97,7 +98,7 @@ nav ul li a:hover::after {
 
   margin-bottom: 2rem;
   text-align: center;
-  box-shadow: 5px 5px 100px #67131f;
+  box-shadow: 0px 0px 20px#67131f;
   font-size: 5rem;
 
   color: white;
