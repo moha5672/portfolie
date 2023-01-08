@@ -5,6 +5,61 @@
 h1 {
   font-family: "overskrift";
 }
+
+/*
+
+Testing
+
+
+*/
+/*
+@media (max-width: 750px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+*/
+@media (max-width: 750px) {
+  .navTest div {
+    height: 5px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .navTest {
+    display: block;
+    float: right;
+    margin-right: 1rem;
+    width: 30px;
+  }
+  .menu-website {
+    display: contents;
+  }
+  .menu-website {
+    display: none;
+  }
+
+  .menu-website.appear {
+    border-top: 3px solid white;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    display: contents;
+    flex: 1 1 100%;
+    flex-flow: column;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 10;
+  }
+}
+
+/*
+
+
+
+
+*/
+
 html {
   scroll-behavior: smooth;
 }
