@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "overskrift";
+  src: url(breeserif-regular-webfont.woff);
+}
+h1 {
+  font-family: "overskrift";
+}
 html {
   scroll-behavior: smooth;
 }
@@ -28,7 +35,6 @@ ul {
 .forsideMain {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
 }
 img {
   width: 100%;
@@ -121,6 +127,9 @@ nav ul li a:hover::after {
   text-align: center;
   color: white;
 }
+.kort :last-child:hover {
+  background-color: #a21624;
+}
 .boks-2::after {
   content: "tema-2";
   font-size: 2rem;
@@ -128,7 +137,7 @@ nav ul li a:hover::after {
   line-height: 250px;
   width: 0%;
   height: 99%;
-  background: #e91e31;
+  background: #e91e32b2;
   left: 0;
   bottom: 5px;
   text-decoration: none;
@@ -148,7 +157,7 @@ nav ul li a:hover::after {
   line-height: 250px;
   width: 0%;
   height: 99%;
-  background: #e91e31;
+  background: #e91e32b2;
   left: 0;
   bottom: 5px;
   text-decoration: none;
@@ -168,7 +177,7 @@ nav ul li a:hover::after {
   line-height: 250px;
   width: 0%;
   height: 99%;
-  background: #e91e31;
+  background: #e91e32b2;
   left: 0;
   bottom: 5px;
   text-decoration: none;
@@ -190,7 +199,7 @@ nav ul li a:hover::after {
 
   width: 0%;
   height: 99%;
-  background: #e91e31;
+  background: #e91e32b2;
   left: 0;
   bottom: 5px;
   text-decoration: none;
