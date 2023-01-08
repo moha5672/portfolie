@@ -5,61 +5,6 @@
 h1 {
   font-family: "overskrift";
 }
-
-/*
-
-Testing
-
-
-*/
-/*
-@media (max-width: 750px) {
-  .hamburger-menu {
-    display: none;
-  }
-}
-*/
-@media (max-width: 750px) {
-  .navTest div {
-    height: 5px;
-    margin: 5px 0;
-    background-color: white;
-    border-radius: 20px;
-    transition: 0.5s;
-  }
-  .navTest {
-    display: block;
-    float: right;
-    margin-right: 1rem;
-    width: 30px;
-  }
-  .menu-website {
-    display: contents;
-  }
-  .menu-website {
-    display: none;
-  }
-
-  .menu-website.appear {
-    border-top: 3px solid white;
-    padding-top: 2rem;
-    margin-top: 2rem;
-    display: contents;
-    flex: 1 1 100%;
-    flex-flow: column;
-    text-align: center;
-    font-size: 2rem;
-    z-index: 10;
-  }
-}
-
-/*
-
-
-
-
-*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -75,12 +20,31 @@ body {
   margin-right: auto;
   line-height: 1.5;
 }
-
-ul {
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
+/*burger*/
+@media (max-width: 750px) {
+  .navTest div {
+    height: 5px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 20px;
+    transition: 1s;
+    transform: rotate(0.5turn);
+  }
+  .navTest {
+    display: block;
+    float: right;
+    margin-right: 1rem;
+    width: 30px;
+  }
+  .menu-website {
+    display: contents;
+  }
+  .menu-website {
+    display: none;
+  }
+  .menu-website.appear {
+    display: contents;
+  }
 }
 
 #forside {
@@ -112,15 +76,23 @@ img {
     font-size: 15px;
   }
 }
-nav ul li {
-  list-style: none;
-}
+
 nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 30px;
   position: relative;
+  list-style-type: none;
 }
+@media (max-width: 750px) {
+  nav ul li a {
+    font-size: 1.2rem;
+
+    z-index: 2;
+    list-style-type: none;
+  }
+}
+
 nav ul li a::after {
   content: "";
   width: 0%;
@@ -135,6 +107,27 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
+ul {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+@media (max-width: 750px) {
+  ul {
+    border-style: dotted;
+    border-color: white;
+    position: absolute;
+    display: grid;
+    justify-content: right;
+    gap: 1rem;
+    margin-left: 83%;
+    margin-top: 2rem;
+    padding: 0%;
+    font-size: 2px;
+  }
+}
+
 /*Portfolio*/
 .temaer {
   display: grid;
