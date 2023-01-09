@@ -36,15 +36,17 @@ body {
     margin-right: 1rem;
     width: 30px;
   }
-  .menu-website {
-    display: contents;
-  }
+
   .menu-website {
     display: none;
   }
   .menu-website.appear {
     display: contents;
   }
+}
+.roter {
+  transform: rotate(90deg);
+  transition: 1s;
 }
 
 #forside {
@@ -86,7 +88,7 @@ nav ul li a {
 }
 @media (max-width: 750px) {
   nav ul li a {
-    font-size: 2rem;
+    font-size: 1rem;
 
     z-index: 2;
     list-style-type: none;
@@ -116,16 +118,22 @@ ul {
 }
 @media (max-width: 750px) {
   ul {
-    border-style: dotted;
+    border-color: white;
+    position: relative;
+    display: grid;
+    background-color: #1a1a28c8;
+    gap: 1rem;
+  }
+}
+@media (max-width: 750px) {
+  .responsive-menu {
     border-color: white;
     position: absolute;
     display: grid;
-    justify-content: right;
+
     gap: 1rem;
     margin-left: 83%;
     margin-top: 2rem;
-    padding: 0%;
-    font-size: 2px;
   }
 }
 

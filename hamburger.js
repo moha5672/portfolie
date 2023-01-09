@@ -10,3 +10,10 @@ function menuDisplay() {
 }
 
 menu.addEventListener("click", menuDisplay);
+function roter() {
+  console.log("roter");
+  menu.classList.toggle("roter");
+}
+
+menu.addEventListener("click", menuDisplay);
+menu.addEventListener("click", roter);
