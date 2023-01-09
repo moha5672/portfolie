@@ -1,6 +1,10 @@
 body {
-  background-color: #1a1a28;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
+
 h1,
 h2,
 h3,
@@ -10,9 +14,24 @@ p {
 img {
   width: 100%;
 }
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
   .responsivtema {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
   }
+}
+
+.kode {
+  width: 15rem;
+}
+@media (max-width: 1000px) {
+  .kode {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+main {
+  background-color: #1a1a28;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
