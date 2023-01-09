@@ -169,6 +169,7 @@ ul {
 
   color: white;
 }
+/*bokse*/
 .kort {
   max-width: 25rem;
   margin-left: auto;
@@ -191,7 +192,7 @@ ul {
   background-color: #a21624;
 }
 .boks-2::after {
-  content: "tema-2";
+  content: "Grundlæggende web";
   font-size: 2rem;
   text-align: center;
   line-height: 250px;
