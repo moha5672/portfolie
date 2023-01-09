@@ -139,6 +139,17 @@ ul {
     margin-top: 2rem;
   }
 }
+.aab {
+  background-color: #1a1a28;
+  background-size: cover;
+
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 20px#67131f;
+  font-size: 5rem;
+
+  color: white;
+}
 
 /*Portfolio*/
 .temaer {
@@ -168,7 +179,12 @@ ul {
   font-size: 5rem;
 
   color: white;
+
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /*bokse*/
 .kort {
   max-width: 25rem;
@@ -276,4 +292,20 @@ ul {
 
 #OmMig {
   background-color: #1a1a28;
+}
+.cv {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 3rem;
+  margin-left: 1rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 908px) {
+  .cv {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+.potraetogkontakt {
+  background-color: #6532315d;
 }
