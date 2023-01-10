@@ -243,7 +243,7 @@ ul {
   width: 100%;
 }
 .boks-3::after {
-  content: "tema-3";
+  content: "Grundlæggende UX";
   font-size: 2rem;
   text-align: center;
   line-height: 250px;
