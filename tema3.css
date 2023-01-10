@@ -1,0 +1,40 @@
+main a {
+  background-color: #e91e31;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+main a:hover {
+  background-color: #67131f;
+}
+img {
+  width: 100%;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+main {
+  background-color: #1a1a28;
+  padding-top: 2rem;
+}
+
+@media (min-width: 950px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+p {
+  padding-bottom: 2rem;
+  margin-left: 1rem;
+}
+h1 {
+  margin-left: 1rem;
+}

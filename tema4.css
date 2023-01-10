@@ -23,6 +23,6 @@ main a {
   padding-right: 1rem;
   text-decoration: none;
 }
-.tekst a:hover {
+main a:hover {
   background-color: #67131f;
 }
