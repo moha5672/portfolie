@@ -61,11 +61,13 @@ body {
 
 #forside {
   background-color: #1a1a28;
-  width: 100%;
 }
 .forsideMain {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
   width: 100%;
@@ -85,7 +87,7 @@ img {
     margin-left: 5rem;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 15px;
+    font-size: 0.9rem;
   }
 }
 
@@ -166,6 +168,9 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 908px) {
   .temaer {
