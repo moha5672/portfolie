@@ -3,6 +3,19 @@
   margin: 0;
   padding: 0;
 }
+h1,
+h2,
+h3,
+a,
+p {
+  color: white;
+}
+body {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
 @media (max-width: 750px) {
   .navTest div {
     height: 5px;

@@ -263,7 +263,7 @@ ul {
   width: 100%;
 }
 .boks-4::after {
-  content: "tema-4";
+  content: "Grundlæggende animation";
   font-size: 2rem;
   text-align: center;
   line-height: 250px;
