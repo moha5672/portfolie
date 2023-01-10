@@ -304,6 +304,28 @@ ul {
 .boks-5:hover::after {
   width: 100%;
 }
+.boks-6::after {
+  content: "Tema-6";
+
+  font-size: 2rem;
+  text-align: center;
+  line-height: 250px;
+
+  width: 0%;
+  height: 99%;
+  background: #e91e32b2;
+  left: 0;
+  bottom: 5px;
+  text-decoration: none;
+  position: absolute;
+  transition: 0.8s;
+  overflow: hidden;
+  border-radius: 10px 10px;
+  animation-direction: alternate-reverse;
+}
+.boks-6:hover::after {
+  width: 100%;
+}
 
 #OmMig {
   background-color: #1a1a28;
