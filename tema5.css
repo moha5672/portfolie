@@ -13,3 +13,13 @@ main a {
 main a:hover {
   background-color: #67131f;
 }
+main {
+  background-color: #1a1a28;
+  height: 100vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+p {
+  margin-bottom: 2rem;
+}
