@@ -9,6 +9,10 @@ main a {
   padding-left: 1rem;
   padding-right: 1rem;
   text-decoration: none;
+  display: block;
+
+  max-width: 13rem;
+  text-align: center;
 }
 main a:hover {
   background-color: #67131f;

@@ -35,3 +35,29 @@ main {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+main a {
+  background-color: #e91e31;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  display: block;
+  max-width: 10rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+main a:hover {
+  background-color: #67131f;
+}
+.max {
+  max-width: 40rem;
+}
+.linje {
+  height: 5px;
+  margin: 5px 0;
+  background-color: white;
+}

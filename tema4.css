@@ -1,4 +1,4 @@
-@media (min-width: 950px) {
+@media (max-width: 950px) {
   .spillet {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -7,18 +7,22 @@
 }
 main {
   background-color: #1a1a28;
-  height: 100vh;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 2rem;
 }
 img {
   width: 100%;
   padding-top: 2rem;
   border-radius: 1rem 1rem 1rem 1rem;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 main a {
   background-color: #e91e31;

@@ -1,10 +1,11 @@
 main a {
   background-color: #e91e31;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
-
+  display: block;
+  width: fit-content;
   border-radius: 10px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -21,15 +22,9 @@ img {
 main {
   background-color: #1a1a28;
   padding-top: 2rem;
-  height: 100vh;
-}
 
-@media (min-width: 950px) {
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 p {
