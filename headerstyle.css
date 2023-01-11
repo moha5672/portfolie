@@ -10,6 +10,23 @@ a,
 p {
   color: white;
 }
+@font-face {
+  font-family: "overskrift";
+  src: url(breeserif-regular-webfont.woff);
+}
+@font-face {
+  font-family: "sætninger";
+  src: url(sofiasanscondensed-variablefont_wght-webfont.woff2);
+}
+h1,
+h2,
+h3,
+a {
+  font-family: "overskrift";
+}
+p {
+  font-family: "sætninger";
+}
 body {
   max-width: 1350px;
   margin-left: auto;
