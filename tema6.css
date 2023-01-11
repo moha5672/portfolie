@@ -1,0 +1,14 @@
+main {
+  background-color: #1a1a28;
+  padding-top: 2rem;
+  height: 100vh;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@media (min-width: 950px) {
+  .wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
