@@ -15,11 +15,26 @@ main a:hover {
 }
 main {
   background-color: #1a1a28;
-  height: 100vh;
+
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 2rem;
 }
 p {
   margin-bottom: 2rem;
+}
+img {
+  width: 100%;
+  padding-top: 2rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+@media (min-width: 950px) {
+  .pilot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+h3 {
+  padding-top: 1rem;
 }
