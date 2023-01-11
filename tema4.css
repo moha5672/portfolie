@@ -1,4 +1,4 @@
-@media (max-width: 950px) {
+@media (min-width: 950px) {
   .spillet {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,6 +11,7 @@ main {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 2rem;
+  height: 100vh;
 }
 img {
   width: 100%;
